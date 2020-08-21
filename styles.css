@@ -1,0 +1,39 @@
+html,
+body {
+  height: 100%;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.btn-cta {
+  background-color: #278ea5;
+  color: white;
+}
+.nav-link:hover {
+  text-decoration: underline;
+  color:white;
+}
+
+.gradient {
+background: rgb(36,104,201);
+background: linear-gradient(90deg, rgba(36,104,201,1) 0%, rgba(87,130,212,1) 50%, rgba(75,236,255,1) 100%);
+}
+
+.header-info {
+  color: #fff;
+}
+
+.page-header{
+    font-size: 1.25rem;
+    
+}
+.nav-item,.nav-link {
+  color: white;
+}
+
+.container-fluid {
+  padding: 0px
+}
