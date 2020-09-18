@@ -5,7 +5,11 @@ body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
-  
+}
+
+h4 {
+  border-bottom: 2px solid rebeccapurple;
+  padding: 12px 0;
 }
 
 .btn-cta {
@@ -14,26 +18,47 @@ body {
 }
 .nav-link:hover {
   text-decoration: underline;
-  color:white;
+  color: white;
 }
 
 .gradient {
-background: rgb(36,104,201);
-background: linear-gradient(90deg, rgba(36,104,201,1) 0%, rgba(87,130,212,1) 50%, rgba(75,236,255,1) 100%);
+  background: rgb(36, 104, 201);
+  background: linear-gradient(
+    90deg,
+    rgba(36, 104, 201, 1) 0%,
+    rgba(87, 130, 212, 1) 50%,
+    rgba(75, 236, 255, 1) 100%
+  );
+}
+
+.bg-blue {
+  background: #212529;
 }
 
 .header-info {
   color: #fff;
 }
 
-.page-header{
-    font-size: 1.25rem;
-    
+.page-header {
+  font-size: 1.25rem;
 }
-.nav-item,.nav-link {
+.nav-item,
+.nav-link {
   color: white;
 }
 
 .container-fluid {
-  padding: 0px
+  padding: 0px;
+}
+
+.replace-equipment {
+  color: rgba(36, 104, 201, 1);
+}
+
+.product-description {
+  font-size: 1.2rem;
+}
+
+.footer-bottom {
+  margin-top: 25vh !important;
 }
